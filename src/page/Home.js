@@ -4,7 +4,7 @@ import { Coucou } from '../Coucou';
 import { useState, useEffect} from 'react';
 
 function Home() {
-  const numbers = [1,2,3,4]
+  const numbers = [1,2,3,4,5,6]
   const [stateNumber, setStateNumber] = useState(0)
   const [userData, setUserdata] = useState('')
 
